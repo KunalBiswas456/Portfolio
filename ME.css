@@ -1,0 +1,174 @@
+body {
+  /*font-family: 'Indie Flower', cursive;*/
+  font: 400 1em/1.5 "Neuton",cursive;
+  
+  background: 	#000000;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+}
+.hmm{
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  display: inline-block;
+  /*border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;*/
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+}
+p span {
+  font: 600 4em/1 "Indie Flower",cursive ;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 100 auto;
+  text-shadow: 0 10 10px rgba(126, 96, 96, 0.5);
+  /* Clip Background Image */
+  background: url(YtRPuwr.gif) repeat-y;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  /*-webkit-text-fill-color: transparent;*/
+  /*-webkit-animation: aitf 0s linear infinite;*/
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* .hmm{
+  background-color: #c0c0c0;
+} */
+
+.resizeimg:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0px 0px 30px 0px #fff;
+  -moz-box-shadow:    0px 0px 30px 0px #fff;
+  box-shadow:         0px 0px 30px 0px #fff;
+}
+
+.resizeimg{
+  padding: 0px;
+  margin-top: 15px;
+  
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.color{
+  color:rgba(0,0,0)
+}
+
+.linea{
+  margin-top: 350px;
+  margin-left: 600px;
+}
+
+.prjcont {
+  display: block;
+  clear: both;
+}
+
+.skill {
+  height: 800px;
+  width: 600px;
+  
+  background-color: #c0c0c0;
+  border: #c0c0c0 solid 2px;
+}
+
+.skill:hover {
+  transform: translate(-20px,-20px);
+  transition: 0.5s;
+
+  -webkit-box-shadow: 0px 0px 30px 0px #fff;
+  -moz-box-shadow:    0px 0px 30px 0px #fff;
+  box-shadow:         0px 0px 30px 0px #fff;
+}
+
+.skill-l {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  
+  margin-left: 250px;
+}
+
+.skill-r {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+
+  margin-right: 250px;
+}
+
+.skillp{
+  display: block;
+  float: left;
+  background-color: #c0c0c0;
+  border: #c0c0c0 solid 2px;
+
+  width: 250px;
+  height: 350px;
+  
+  margin-left: 100px;
+}
+
+.skillp img {
+  height: 100%;
+  width: 100%;
+}
+
+.skillp:hover{
+  transform: translate(0px,-20px);
+  transition: 0.5s;
+
+  
+  -webkit-box-shadow: 0px 0px 30px 0px rgb(161, 152, 97);
+  -moz-box-shadow:    0px 0px 30px 0px rgb(161, 152, 97);
+  box-shadow:         0px 0px 30px 0px rgb(161, 152, 97);
+}
+
+.skillh{
+  display: block;
+
+  width: 200px;
+  height: 200px;
+  
+  margin-left: 75px;
+  margin-bottom: 35px;
+}
+
+.skillh-l {
+  float: left;
+  margin-left: 130px;
+}
+
+.skillh-r {
+  float: right;
+  margin-right: 230px;
+}
+
+.skillh img {
+  height: 80%;
+  width: 80%;
+}
+
+.hobbies {
+  display: block;
+}
+
+/* Animate Background Image 
+@-webkit-keyframes aitf {
+  background-position: 100% 100%;
+  background-size: 100%
+
+}*/
